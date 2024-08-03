@@ -1,0 +1,3346 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+  
+
+body{
+
+overflow-x: hidden;
+height:1900px;
+
+}
+
+
+
+/*4k*/
+@media screen and (max-width: 4000px) and (min-width:2600px){
+
+body{
+
+  height:12000px;
+  background-attachment: fixed, scroll;
+  background-image:url("img/body.png");
+  background-size:cover;
+  background-repeat:no-repeat;
+  background-position:center;
+
+
+}
+
+
+
+     /* SECTION footer*/
+      
+     section#footer {
+      display:flex;
+      position:relative;
+      flex-direction:column;
+      top:1600px;
+      left:-10px;
+      width:auto;
+      height:2950px;
+      background-image:url("img/footer.jpg");
+      background-size:cover;
+      background-repeat:no-repeat;
+      background-position:center;
+     
+      }      
+      
+      section#footer h2#ask{
+        display:flex;
+        position:absolute;
+        color:#FFFAFA;
+        top:580px;
+        width:950px;
+        left:1475px;
+        font-size:74pt;
+        font-family: 'Josefin Sans', sans-serif;
+      }
+
+
+      section#footer  div{
+
+        display:flex;
+        position:relative;
+        background-color: azure;
+        color:#320e0e;
+        top:750px;
+        width:1850px;
+        left:945px;
+        font-size:34pt;
+        font-family: 'Josefin Sans', sans-serif;
+        padding:30px;
+        border-radius: 20px;
+        margin:40px;
+      
+      }
+      section#footer  h3{
+
+        margin-left:40px; 
+
+      }
+
+      section#footer  div:hover{
+
+        opacity:0.7;
+
+      }
+
+      section#footer h1#comercial{
+        display:flex;
+        position:absolute;
+        color:#5c1b1b;
+        top:2620px;
+        left:1455px;
+        font-size:41pt;
+        font-family: 'Josefin Sans', sans-serif;
+      }
+
+
+     /* SECTION garanty */
+      
+     section#garanty {
+      display:flex;
+      position:relative;
+      flex-direction:row;
+      top:800px;
+      left:-10px;
+      width:auto;
+      height:2950px;
+      background-image:url("img/faixa_2.png");
+      background-size:cover;
+      background-repeat:no-repeat;
+      background-position:center;
+     
+      }      
+      
+
+        section#garanty img#selo{
+          display:flex;
+          position:relative;
+          top:1200px;
+          left:610px;
+          width:1000px;
+          height:800px;
+          padding:220px;
+         
+         }
+
+
+        section#garanty img#selo_2{
+          display:flex;
+          position:relative;
+          top:1200px;
+          left:400px;
+          width:1000px;
+          height:800px;
+          padding:220px;
+         
+         }
+     
+     
+         
+  
+      /*#############################################################################################################*/
+
+
+
+      /* SECTION guitars */
+      
+      section#guitars {
+        display:flex;
+        position:relative;
+        flex-direction:row;
+        top:-15px;
+        left:-10px;
+        width:auto;
+        height:2950px;
+        background-image:url("img/faixa.png");
+        background-size:cover;
+        background-repeat:no-repeat;
+        background-position:center;
+       
+        }      
+        
+         section#guitars h2#t_0{
+          display:flex;
+          position:absolute;
+          color:#9da8c3;
+          -webkit-text-stroke-width: 0.5px;
+          -webkit-text-stroke-color: black;
+          top:650px;
+          width:350px;
+          left:1775px;
+          font-size:104pt;
+          font-family: 'Josefin Sans', sans-serif;
+          opacity:0.8;
+          }
+  
+  
+        section#guitars h2#t_1{
+        display:flex;
+        position:absolute;
+        color:#696969;
+        top:1830px;
+        width:1050px;
+        left:1405px;
+        font-size:34pt;
+        word-wrap: break-word;
+        line-height: 1.5; 
+        font-family: 'Josefin Sans', sans-serif;
+        opacity:0.8;
+        padding-left:40px;
+        }
+
+        section#guitars h2#t_2{
+          display:flex;
+          position:absolute;
+          color:#696969;
+          top:3050px;
+          width:650px;
+          left:1625px;
+          font-size:34pt;
+          word-wrap: break-word;
+          line-height: 1.5; 
+          font-family: 'Josefin Sans', sans-serif;
+          border: 1px gray;
+          opacity:0.8;
+          padding-left:40px;
+          }
+  
+          section#guitars img#ibanez{
+           display:flex;
+           position:relative;
+           top:2300px;
+           left:-410px;
+           width:1124px;
+           height:360px;
+           padding:220px;
+          
+          }
+
+          section#guitars img#strato{
+            display:flex;
+            position:relative;
+            top:1100px;
+            left:1180px;
+            width:1124px;
+            height:360px;
+            padding:220px;
+           
+           }
+       
+           
+    
+        /*#############################################################################################################*/
+
+
+      /* SECTION styles */
+      
+      section#styles {
+        display:flex;
+        position:relative;
+        flex-direction:row;
+        top:-10px;
+        left:-10px;
+        width:auto;
+        height:2950px;
+        background-color: #ffffff;
+        background-image:url("img/rock.jpg");
+        background-size:cover;
+        background-repeat:no-repeat;
+        background-position:left;
+       
+        }
+  
+        section#styles h2#t_1{
+        display:flex;
+        position:absolute;
+        color:rgb(149, 135, 124);
+        top:600px;
+        width:550px;
+        left:1135px;
+        font-size:24pt;
+        word-wrap: break-word;
+        line-height: 1.5; 
+        font-family: 'Josefin Sans', sans-serif;
+        opacity:0.8;
+        padding-left:40px;
+        }
+
+        section#styles h2#t_2{
+          display:flex;
+          position:absolute;
+          color:rgb(149, 135, 124);
+          top:600px;
+          width:550px;
+          left:2125px;
+          font-size:24pt;
+          word-wrap: break-word;
+          line-height: 1.5; 
+          font-family: 'Josefin Sans', sans-serif;
+          opacity:0.8;
+          padding-left:40px;
+          }
+          section#styles h2#t_3{
+            display:flex;
+            position:absolute;
+            color: rgb(149, 135, 124);
+            top:1300px;
+            width:550px;
+            left:1135px;
+            font-size:24pt;
+            word-wrap: break-word;
+            line-height: 1.5; 
+            font-family: 'Josefin Sans', sans-serif;
+            opacity:0.8;
+            padding-left:40px;
+            }
+    
+            section#styles h2#t_4{
+              display:flex;
+              position:absolute;
+              color:rgb(149, 135, 124);
+              top:1300px;
+              width:550px;
+              left:2125px;
+              font-size:24pt;
+              word-wrap: break-word;
+              line-height: 1.5; 
+              font-family: 'Josefin Sans', sans-serif;
+              opacity:0.8;
+              padding-left:40px;
+              }
+
+
+                       
+          section#styles h1#type_1{
+            display:flex;
+            position:absolute;
+            color:#fd0000;
+            top:460px;
+            left:1210px;
+            font-size:54pt;
+            font-family: 'Josefin Sans', sans-serif;
+
+          }
+                   
+          section#styles h1#type_2{
+            display:flex;
+            position:absolute;
+            color:#fd0000;
+            top:460px;
+            left:2160px;
+            font-size:54pt;
+            font-family: 'Josefin Sans', sans-serif;
+
+          }
+                   
+          section#styles h1#type_3{
+            display:flex;
+            position:absolute;
+            color:#fd0000;
+            top:1140px;
+            left:1220px;
+            font-size:54pt;
+            font-family: 'Josefin Sans', sans-serif;
+
+          }
+            
+                   
+          section#styles h1#type_4{
+            display:flex;
+            position:absolute;
+            color:#fd0000;
+            top:1140px;
+            left:2200px;
+            font-size:54pt;
+            font-family: 'Josefin Sans', sans-serif;
+
+          }
+
+          section#styles h1#title{
+            display:flex;
+            position:absolute;
+            color:rgb(149, 135, 124);;
+            -webkit-text-stroke-width: 0.5px;
+            -webkit-text-stroke-color: black;
+            top:90px;
+            left:1760px;
+            font-size:84pt;
+            font-family: 'Josefin Sans', sans-serif;
+
+          }
+     
+
+      /* SECTION teachers */
+      
+      section#teachers {
+        display:flex;
+        position:relative;
+        flex-direction:row;
+        top:-10px;
+        width:auto;
+        height:2950px;
+        background-color: #ffffff;
+       
+        }
+  
+        section#teachers h2#t_1{
+        display:flex;
+        position:absolute;
+        color:#9da8c3;
+        top:700px;
+        width:550px;
+        left:1035px;
+        font-size:34pt;
+        word-wrap: break-word;
+        line-height: 1.5; 
+        font-family: 'Josefin Sans', sans-serif;
+        border: 1px gray;
+        opacity:0.8;
+        padding-left:40px;
+        }
+
+        section#teachers h2#t_2{
+          display:flex;
+          position:absolute;
+          color:#9da8c3;
+          top:700px;
+          width:550px;
+          left:2125px;
+          font-size:34pt;
+          word-wrap: break-word;
+          line-height: 1.5; 
+          font-family: 'Josefin Sans', sans-serif;
+          border: 1px gray;
+          opacity:0.8;
+          padding-left:40px;
+          }
+  
+          section#teachers img{
+           display:flex;
+           position:relative;
+           top:-80px;
+           left:800px;
+           width:350px;
+           height:350px;
+           padding:350px;
+          
+          }
+          section#teachers figcaption#um_title{
+            display:flex;
+            position:absolute;
+            font-size:30pt;
+            top:180px;
+            left:1160px;
+           
+           }
+
+           section#teachers figcaption#dois_title{
+            display:flex;
+            position:absolute;
+            font-size:30pt;
+            top:180px;
+            left:2290px;
+           
+           }
+           
+  
+        /*#############################################################################################################*/
+  
+      /* SECTION LAST */
+      
+      
+      section#last {
+  
+        display:flex;
+        position:relative;
+        top:-10px;
+        width:auto;
+        height:2950px;
+        background-image:url("img/guitar.jpg");
+        background-size:cover;
+        background-repeat:no-repeat;
+        background-position:center;
+        }
+  
+        section#last h2{
+        display:flex;
+        position:absolute;
+        color:#BEBEBE;
+        top:550px;
+        width:850px;
+        left:695px;
+        font-size:35pt;
+        word-wrap: break-word;
+        line-height: 1.5; 
+        font-family: 'Josefin Sans', sans-serif;
+        border: 1px gray;
+        opacity:0.8;
+        padding:40px;
+        }
+        section#last div#inputs{
+          display:flex;
+          position:absolute;
+          flex-direction:column;
+          background-color:#BEBEBE;
+          top:400px;
+          width:700px;
+          height:800px;
+          left:2355px;
+          opacity:0.8;
+          padding:30px;
+          }
+  
+          section#last div#inputs label{
+            display:flex;
+            position:relative;
+            font-size:30pt;
+            left:90px;
+            word-wrap: break-word;
+            font-family: 'Josefin Sans', sans-serif;
+            margin-top:30px;
+            margin-left:20px;
+          
+          
+          }
+          section#last div#inputs input{
+            display:flex;
+            position:relative;
+            font-family: 'Josefin Sans', sans-serif;
+            border-radius:10px;
+            border:none;
+            left:90px;
+            font-size:23pt;
+            width:450px;
+            height:50px;
+            margin-top:20px;
+            margin-left:20px;
+          
+          }
+  
+          section#last button#inscrever{
+           
+            display:flex;
+            position:relative;
+            font-size:28pt;
+            left:165px;
+            background-color:red;
+            cursor:pointer;
+            border:none;
+            border-radius:10px;
+            top:60px;
+            word-wrap: break-word;
+            font-family: 'Josefin Sans', sans-serif;
+            width:300px;
+            height:100px;
+            padding-top:31px;
+            padding-left:55px;
+      
+          }
+          
+          section#last button#inscrever:hover{
+           
+            background-color:#BEBEBE;
+            border:black solid 1px;
+  
+          }
+  
+          section#last img#ux{
+           display:flex;
+           position:absolute;
+           top:120px;
+           left:670px;
+           width:900px;
+           height:400px;
+          
+          }
+          
+        
+        
+        /*#############################################################################################################*/
+
+img#icon{
+  position:absolute;
+  width:120px;
+  height:120px;
+  left:60px;
+  opacity:1;
+  
+  }
+  
+  * {
+  margin:0;
+  padding:0;
+  list-style-type:none;
+  }
+ 
+}
+/*1980px 100%*/
+@media screen and (max-width: 2159px) and (min-width:1691px){
+
+
+    body{
+  
+      height:8000px;
+      background-attachment: fixed, scroll;
+      background-image:url("img/body.png");
+      background-size:cover;
+      background-repeat:no-repeat;
+      background-position:center;
+    
+    }
+    
+    
+
+
+     /* SECTION footer*/
+      
+     section#footer {
+      display:flex;
+      position:relative;
+      flex-direction:column;
+      top:400px;
+      left:-10px;
+      width:1940px;
+      height:1300px;
+      background-image:url("img/footer.jpg");
+      background-size:cover;
+      background-repeat:no-repeat;
+      background-position:center;
+     
+      }      
+      
+      section#footer h2#ask{
+        display:flex;
+        position:absolute;
+        color:#FFFAFA;
+        top:150px;
+        width:550px;
+        left:735px;
+        font-size:34pt;
+        font-family: 'Josefin Sans', sans-serif;
+      }
+
+
+      section#footer  div{
+
+        display:flex;
+        position:relative;
+        background-color: azure;
+        color:#320e0e;
+        top:250px;
+        width:750px;
+        left:549px;
+        font-size:14pt;
+        font-family: 'Josefin Sans', sans-serif;
+        padding:0px;
+        border-radius: 20px;
+        margin:20px;
+      
+      }
+      section#footer  h3{
+
+        margin-left:40px; 
+
+      }
+
+      section#footer  div:hover{
+
+        opacity:0.7;
+
+      }
+
+      section#footer h1#comercial{
+        display:flex;
+        position:absolute;
+        color:#5c1b1b;
+        top:1180px;
+        left:728px;
+        font-size:21pt;
+        font-family: 'Josefin Sans', sans-serif;
+      }
+
+
+    
+     /* SECTION garanty */
+      
+     section#garanty {
+      display:flex;
+      position:relative;
+      flex-direction:row;
+      top:300px;
+      left:-20px;
+      width:1940px;
+      height:1300px;
+      background-image:url("img/faixa_2.png");
+      background-size:cover;
+      background-repeat:no-repeat;
+      background-position:center;
+     
+      }      
+      
+
+        section#garanty img#selo{
+          display:flex;
+          position:relative;
+          top:300px;
+          left:310px;
+          width:380px;
+          height:300px;
+          padding:220px;
+         
+         }
+
+
+        section#garanty img#selo_2{
+          display:flex;
+          position:relative;
+          top:310px;
+          left:0px;
+          width:380px;
+          height:300px;
+          padding:220px;
+         
+         }
+     
+     
+         
+  
+      /*#############################################################################################################*/
+  
+
+
+      /* SECTION guitars */
+      
+      section#guitars {
+        display:flex;
+        position:relative;
+        flex-direction:row;
+        top:-10px;
+        left:-10px;
+        width:1940px;
+        height:1300px;
+        background-image:url("img/faixa.png");
+        background-size:cover;
+        background-repeat:no-repeat;
+        background-position:center;
+       
+        }      
+        
+         section#guitars h2#t_0{
+          display:flex;
+          position:absolute;
+          color:#9da8c3;
+          -webkit-text-stroke-width: 0.5px;
+          -webkit-text-stroke-color: black;
+          top:250px;
+          width:350px;
+          left:855px;
+          font-size:54pt;
+          font-family: 'Josefin Sans', sans-serif;
+          opacity:0.8;
+          }
+  
+  
+        section#guitars h2#t_1{
+        display:flex;
+        position:absolute;
+        color:#696969;
+        top:740px;
+        width:450px;
+        left:765px;
+        font-size:14pt;
+        word-wrap: break-word;
+        line-height: 1.5; 
+        font-family: 'Josefin Sans', sans-serif;
+        opacity:0.8;
+        padding-left:40px;
+        }
+
+        section#guitars h2#t_2{
+          display:flex;
+          position:absolute;
+          color:#696969;
+          top:1250px;
+          width:350px;
+          left:825px;
+          font-size:14pt;
+          word-wrap: break-word;
+          line-height: 1.5; 
+          font-family: 'Josefin Sans', sans-serif;
+          border: 1px gray;
+          opacity:0.8;
+          padding-left:40px;
+          }
+  
+          section#guitars img#ibanez{
+           display:flex;
+           position:relative;
+           top:800px;
+           left:-510px;
+           width:562px;
+           height:180px;
+           padding:220px;
+          
+          }
+
+          section#guitars img#strato{
+            display:flex;
+            position:relative;
+            top:300px;
+            left:480px;
+            width:562px;
+            height:180px;
+            padding:220px;
+           
+           }
+       
+           
+    
+        /*#############################################################################################################*/
+        
+
+      /* SECTION styles */
+      
+      section#styles {
+        display:flex;
+        position:relative;
+        flex-direction:row;
+        top:-10px;
+        left:-10px;
+        width:1940px;
+        height:1300px;
+        background-color: #ffffff;
+        background-image:url("img/rock.jpg");
+        background-size:cover;
+        background-repeat:no-repeat;
+        background-position:center;
+       
+        }
+  
+        section#styles h2#t_1{
+        display:flex;
+        position:absolute;
+        color:rgb(149, 135, 124);
+        top:400px;
+        width:350px;
+        left:495px;
+        font-size:14pt;
+        word-wrap: break-word;
+        line-height: 1.5; 
+        font-family: 'Josefin Sans', sans-serif;
+        opacity:0.8;
+        padding-left:40px;
+        }
+
+        section#styles h2#t_2{
+          display:flex;
+          position:absolute;
+          color:rgb(149, 135, 124);
+          top:400px;
+          width:350px;
+          left:1025px;
+          font-size:14pt;
+          word-wrap: break-word;
+          line-height: 1.5; 
+          font-family: 'Josefin Sans', sans-serif;
+          opacity:0.8;
+          padding-left:40px;
+          }
+          section#styles h2#t_3{
+            display:flex;
+            position:absolute;
+            color: rgb(149, 135, 124);
+            top:900px;
+            width:350px;
+            left:495px;
+            font-size:14pt;
+            word-wrap: break-word;
+            line-height: 1.5; 
+            font-family: 'Josefin Sans', sans-serif;
+            opacity:0.8;
+            padding-left:40px;
+            }
+    
+            section#styles h2#t_4{
+              display:flex;
+              position:absolute;
+              color:rgb(149, 135, 124);
+              top:900px;
+              width:350px;
+              left:1025px;
+              font-size:14pt;
+              word-wrap: break-word;
+              line-height: 1.5; 
+              font-family: 'Josefin Sans', sans-serif;
+              opacity:0.8;
+              padding-left:40px;
+              }
+
+
+                       
+          section#styles h1#type_1{
+            display:flex;
+            position:absolute;
+            color:#fd0000;
+            top:290px;
+            left:580px;
+            font-size:34pt;
+            font-family: 'Josefin Sans', sans-serif;
+
+          }
+                   
+          section#styles h1#type_2{
+            display:flex;
+            position:absolute;
+            color:#fd0000;
+            top:290px;
+            left:1090px;
+            font-size:34pt;
+            font-family: 'Josefin Sans', sans-serif;
+
+          }
+                   
+          section#styles h1#type_3{
+            display:flex;
+            position:absolute;
+            color:#fd0000;
+            top:790px;
+            left:580px;
+            font-size:34pt;
+            font-family: 'Josefin Sans', sans-serif;
+
+          }
+            
+                   
+          section#styles h1#type_4{
+            display:flex;
+            position:absolute;
+            color:#fd0000;
+            top:790px;
+            left:1090px;
+            font-size:34pt;
+            font-family: 'Josefin Sans', sans-serif;
+
+          }
+
+          section#styles h1#title{
+            display:flex;
+            position:absolute;
+            color:rgb(149, 135, 124);;
+            -webkit-text-stroke-width: 0.5px;
+            -webkit-text-stroke-color: black;
+            top:30px;
+            left:860px;
+            font-size:44pt;
+            font-family: 'Josefin Sans', sans-serif;
+
+          }
+     
+
+
+      /* SECTION LAST */
+      
+      section#last {
+      display:flex;
+      position:relative;
+      top:-10px;
+      left:-10px;
+      width:1940px;
+      height:1300px;
+      background-image:url("img/guitar.jpg");
+      background-size:cover;
+      background-repeat:no-repeat;
+      background-position:left;
+      }
+
+      section#last h2{
+      display:flex;
+      position:absolute;
+      color:#BEBEBE;
+      top:250px;
+      width:550px;
+      left:325px;
+      font-size:19pt;
+      word-wrap: break-word;
+      line-height: 1.5; 
+      font-family: 'Josefin Sans', sans-serif;
+      border: 1px gray;
+      opacity:0.8;
+      padding:40px;
+      }
+      section#last div#inputs{
+        display:flex;
+        position:absolute;
+        flex-direction:column;
+        background-color:#BEBEBE;
+        top:200px;
+        width:300px;
+        height:400px;
+        left:1205px;
+        opacity:0.8;
+        padding:30px;
+        }
+
+        section#last div#inputs label{
+          display:flex;
+          position:relative;
+          font-size:18pt;
+          word-wrap: break-word;
+          font-family: 'Josefin Sans', sans-serif;
+          margin-top:30px;
+          margin-left:20px;
+        
+        
+        }
+        section#last div#inputs input{
+          display:flex;
+          position:relative;
+          font-family: 'Josefin Sans', sans-serif;
+          border-radius:10px;
+          border:none;
+          font-size:14pt;
+          width:250px;
+          height:30px;
+          margin-top:20px;
+          margin-left:20px;
+        
+        }
+
+        section#last button#inscrever{
+         
+          display:flex;
+          position:relative;
+          font-size:18pt;
+          left:65px;
+          background-color:red;
+          cursor:pointer;
+          border:none;
+          border-radius:10px;
+          top:20px;
+          word-wrap: break-word;
+          font-family: 'Josefin Sans', sans-serif;
+          width:150px;
+          height:50px;
+          padding-top:13px;
+          padding-left:11px;
+    
+        }
+        
+        section#last button#inscrever:hover{
+         
+          background-color:#BEBEBE;
+          border:black solid 1px;
+
+        }
+
+
+        section#last img#ux{
+         display:flex;
+         position:absolute;
+         top:100px;
+         left:400px;
+         width:400px;
+         height:150px;
+        
+        }
+        
+      
+      
+      /*#############################################################################################################*/
+
+
+      
+      /* SECTION teachers */
+      
+      section#teachers {
+        display:flex;
+        position:relative;
+        flex-direction:row;
+        top:-10px;
+        left:-10px;
+        width:1940px;
+        height:1300px;
+        background-color: #ffffff;
+       
+        }
+  
+        section#teachers h2#t_1{
+        display:flex;
+        position:absolute;
+        color:#9da8c3;
+        top:400px;
+        width:350px;
+        left:435px;
+        font-size:14pt;
+        word-wrap: break-word;
+        line-height: 1.5; 
+        font-family: 'Josefin Sans', sans-serif;
+        border: 1px gray;
+        opacity:0.8;
+        padding-left:40px;
+        }
+
+        section#teachers h2#t_2{
+          display:flex;
+          position:absolute;
+          color:#9da8c3;
+          top:400px;
+          width:350px;
+          left:1025px;
+          font-size:14pt;
+          word-wrap: break-word;
+          line-height: 1.5; 
+          font-family: 'Josefin Sans', sans-serif;
+          border: 1px gray;
+          opacity:0.8;
+          padding-left:40px;
+          }
+  
+          section#teachers img{
+           display:flex;
+           position:relative;
+           top:0px;
+           left:340px;
+           width:150px;
+           height:150px;
+           padding:220px;
+          
+          }
+          section#teachers figcaption#um_title{
+            display:flex;
+            position:absolute;
+            top:180px;
+            left:580px;
+           
+           }
+
+           section#teachers figcaption#dois_title{
+            display:flex;
+            position:absolute;
+            top:180px;
+            left:1190px;
+           
+           }
+           
+       
+        
+        /*#############################################################################################################*/
+        
+      
+}
+/*1600px*/
+@media screen and (max-width: 1690px) and (min-width:1440px){
+
+  body{
+  
+    height:8000px;
+    background-attachment: fixed, scroll;
+    background-image:url("img/body.png");
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:center;
+  
+  }
+
+
+
+     /* SECTION footer*/
+      
+     section#footer {
+      display:flex;
+      position:relative;
+      flex-direction:column;
+      top:800px;
+      left:-10px;
+      width:1600px;
+      height:1480px;
+      background-image:url("img/footer.jpg");
+      background-size:cover;
+      background-repeat:no-repeat;
+      background-position:center;
+     
+      }      
+      
+      section#footer h2#ask{
+        display:flex;
+        position:absolute;
+        color:#FFFAFA;
+        top:150px;
+        width:550px;
+        left:575px;
+        font-size:34pt;
+        font-family: 'Josefin Sans', sans-serif;
+      }
+
+
+      section#footer  div{
+
+        display:flex;
+        position:relative;
+        background-color: azure;
+        color:#320e0e;
+        top:250px;
+        width:750px;
+        left:375px;
+        font-size:14pt;
+        font-family: 'Josefin Sans', sans-serif;
+        padding:0px;
+        border-radius: 20px;
+        margin:20px;
+      
+      }
+      section#footer  h3{
+
+        margin-left:40px; 
+
+      }
+
+      section#footer  div:hover{
+
+        opacity:0.7;
+
+      }
+
+      section#footer h1#comercial{
+        display:flex;
+        position:absolute;
+        color:#5c1b1b;
+        top:1350px;
+        left:545px;
+        font-size:21pt;
+        font-family: 'Josefin Sans', sans-serif;
+      }
+
+
+
+     /* SECTION garanty */
+      
+     section#garanty {
+      display:flex;
+      position:relative;
+      flex-direction:row;
+      top:600px;
+      left:-10px;
+      width:1600px;
+      height:1000px;
+      background-image:url("img/faixa_2.png");
+      background-size:cover;
+      background-repeat:no-repeat;
+      background-position:center;
+     
+      }      
+      
+
+        section#garanty img#selo{
+          display:flex;
+          position:relative;
+          top:300px;
+          left:110px;
+          width:380px;
+          height:300px;
+          padding:220px;
+         
+         }
+
+
+        section#garanty img#selo_2{
+          display:flex;
+          position:relative;
+          top:310px;
+          left:-200px;
+          width:380px;
+          height:300px;
+          padding:220px;
+         
+         }
+     
+     
+         
+  
+      /*#############################################################################################################*/
+
+
+      /* SECTION guitars */
+      
+      section#guitars {
+        display:flex;
+        position:relative;
+        flex-direction:row;
+        top:-10px;
+        left:-10px;
+        width:1600px;
+        height:1300px;
+        background-image:url("img/faixa.png");
+        background-size:cover;
+        background-repeat:no-repeat;
+        background-position:center;
+       
+        }      
+        
+         section#guitars h2#t_0{
+          display:flex;
+          position:absolute;
+          color:#9da8c3;
+          -webkit-text-stroke-width: 0.5px;
+          -webkit-text-stroke-color: black;
+          top:250px;
+          width:350px;
+          left:675px;
+          font-size:54pt;
+          font-family: 'Josefin Sans', sans-serif;
+          opacity:0.8;
+          }
+  
+  
+        section#guitars h2#t_1{
+        display:flex;
+        position:absolute;
+        color:#696969;
+        top:700px;
+        width:450px;
+        left:565px;
+        font-size:14pt;
+        word-wrap: break-word;
+        line-height: 1.5; 
+        font-family: 'Josefin Sans', sans-serif;
+        opacity:0.8;
+        padding-left:40px;
+        }
+
+        section#guitars h2#t_2{
+          display:flex;
+          position:absolute;
+          color:#696969;
+          top:1250px;
+          width:350px;
+          left:625px;
+          font-size:14pt;
+          word-wrap: break-word;
+          line-height: 1.5; 
+          font-family: 'Josefin Sans', sans-serif;
+          border: 1px gray;
+          opacity:0.8;
+          padding-left:40px;
+          }
+  
+          section#guitars img#ibanez{
+           display:flex;
+           position:relative;
+           top:800px;
+           left:-710px;
+           width:562px;
+           height:180px;
+           padding:220px;
+          
+          }
+
+          section#guitars img#strato{
+            display:flex;
+            position:relative;
+            top:300px;
+            left:280px;
+            width:562px;
+            height:180px;
+            padding:220px;
+           
+           }
+       
+           
+    
+        /*#############################################################################################################*/
+
+      /* SECTION styles */
+      
+      section#styles {
+        display:flex;
+        position:relative;
+        flex-direction:row;
+        top:-10px;
+        left:-10px;
+        width:1600px;
+        height:1600px;
+        background-color: #ffffff;
+        background-image:url("img/rock.jpg");
+        background-size:cover;
+        background-repeat:no-repeat;
+        background-position:center;
+       
+        }
+  
+        section#styles h2#t_1{
+        display:flex;
+        position:absolute;
+        color:rgb(149, 135, 124);
+        top:400px;
+        width:350px;
+        left:335px;
+        font-size:14pt;
+        word-wrap: break-word;
+        line-height: 1.5; 
+        font-family: 'Josefin Sans', sans-serif;
+        opacity:0.8;
+        padding-left:40px;
+        }
+
+        section#styles h2#t_2{
+          display:flex;
+          position:absolute;
+          color:rgb(149, 135, 124);
+          top:400px;
+          width:350px;
+          left:825px;
+          font-size:14pt;
+          word-wrap: break-word;
+          line-height: 1.5; 
+          font-family: 'Josefin Sans', sans-serif;
+          opacity:0.8;
+          padding-left:40px;
+          }
+          section#styles h2#t_3{
+            display:flex;
+            position:absolute;
+            color: rgb(149, 135, 124);
+            top:900px;
+            width:350px;
+            left:335px;
+            font-size:14pt;
+            word-wrap: break-word;
+            line-height: 1.5; 
+            font-family: 'Josefin Sans', sans-serif;
+            opacity:0.8;
+            padding-left:40px;
+            }
+    
+            section#styles h2#t_4{
+              display:flex;
+              position:absolute;
+              color:rgb(149, 135, 124);
+              top:900px;
+              width:350px;
+              left:825px;
+              font-size:14pt;
+              word-wrap: break-word;
+              line-height: 1.5; 
+              font-family: 'Josefin Sans', sans-serif;
+              opacity:0.8;
+              padding-left:40px;
+              }
+
+
+                       
+          section#styles h1#type_1{
+            display:flex;
+            position:absolute;
+            color:#fd0000;
+            top:290px;
+            left:420px;
+            font-size:34pt;
+            font-family: 'Josefin Sans', sans-serif;
+
+          }
+                   
+          section#styles h1#type_2{
+            display:flex;
+            position:absolute;
+            color:#fd0000;
+            top:290px;
+            left:890px;
+            font-size:34pt;
+            font-family: 'Josefin Sans', sans-serif;
+
+          }
+                   
+          section#styles h1#type_3{
+            display:flex;
+            position:absolute;
+            color:#fd0000;
+            top:790px;
+            left:420px;
+            font-size:34pt;
+            font-family: 'Josefin Sans', sans-serif;
+
+          }
+            
+                   
+          section#styles h1#type_4{
+            display:flex;
+            position:absolute;
+            color:#fd0000;
+            top:790px;
+            left:890px;
+            font-size:34pt;
+            font-family: 'Josefin Sans', sans-serif;
+
+          }
+
+          section#styles h1#title{
+            display:flex;
+            position:absolute;
+            color:rgb(149, 135, 124);;
+            -webkit-text-stroke-width: 0.5px;
+            -webkit-text-stroke-color: black;
+            top:30px;
+            left:690px;
+            font-size:44pt;
+            font-family: 'Josefin Sans', sans-serif;
+
+          }
+     
+        /*#############################################################################################################*/
+   
+      /* SECTION LAST */
+      
+      section#last {
+        display:flex;
+        position:relative;
+        top:-10px;
+        left:-10px;
+        width:1600px;
+        height:1300px;
+        background-image:url("img/guitar.jpg");
+        background-size:cover;
+        background-repeat:no-repeat;
+        background-position:left;
+        }
+  
+        section#last h2{
+        display:flex;
+        position:absolute;
+        color:#BEBEBE;
+        top:250px;
+        width:550px;
+        left:125px;
+        font-size:19pt;
+        word-wrap: break-word;
+        line-height: 1.5; 
+        font-family: 'Josefin Sans', sans-serif;
+        border: 1px gray;
+        opacity:0.8;
+        padding:40px;
+        }
+        section#last div#inputs{
+          display:flex;
+          position:absolute;
+          flex-direction:column;
+          background-color:#BEBEBE;
+          top:200px;
+          width:300px;
+          height:400px;
+          left:955px;
+          opacity:0.8;
+          padding:30px;
+          }
+  
+          section#last div#inputs label{
+            display:flex;
+            position:relative;
+            font-size:18pt;
+            word-wrap: break-word;
+            font-family: 'Josefin Sans', sans-serif;
+            margin-top:30px;
+            margin-left:20px;
+          
+          
+          }
+          section#last div#inputs input{
+            display:flex;
+            position:relative;
+            font-family: 'Josefin Sans', sans-serif;
+            border-radius:10px;
+            border:none;
+            font-size:14pt;
+            width:250px;
+            height:30px;
+            margin-top:20px;
+            margin-left:20px;
+          
+          }
+  
+          section#last button#inscrever{
+           
+            display:flex;
+            position:relative;
+            font-size:18pt;
+            left:65px;
+            background-color:red;
+            cursor:pointer;
+            border:none;
+            border-radius:10px;
+            top:20px;
+            word-wrap: break-word;
+            font-family: 'Josefin Sans', sans-serif;
+            width:150px;
+            height:50px;
+            padding-top:13px;
+            padding-left:11px;
+      
+          }
+          
+          section#last button#inscrever:hover{
+           
+            background-color:#BEBEBE;
+            border:black solid 1px;
+  
+          }
+  
+  
+          section#last img#ux{
+            display:flex;
+            position:absolute;
+            top:100px;
+            left:200px;
+            width:400px;
+            height:150px;
+           
+           }
+        
+        /*#############################################################################################################*/
+        
+        /* SECTION teachers */
+        
+        section#teachers {
+          display:flex;
+          position:relative;
+          flex-direction:row;
+          top:-10px;
+          left:-10px;
+          width:1600px;
+          height:1300px;
+          background-color: #ffffff;
+         
+          }
+    
+          section#teachers h2#t_1{
+          display:flex;
+          position:absolute;
+          color:#9da8c3;
+          top:400px;
+          width:350px;
+          left:235px;
+          font-size:14pt;
+          word-wrap: break-word;
+          line-height: 1.5; 
+          font-family: 'Josefin Sans', sans-serif;
+          border: 1px gray;
+          opacity:0.8;
+          padding-left:40px;
+          }
+  
+          section#teachers h2#t_2{
+            display:flex;
+            position:absolute;
+            color:#9da8c3;
+            top:400px;
+            width:350px;
+            left:825px;
+            font-size:14pt;
+            word-wrap: break-word;
+            line-height: 1.5; 
+            font-family: 'Josefin Sans', sans-serif;
+            border: 1px gray;
+            opacity:0.8;
+            padding-left:40px;
+            }
+    
+            section#teachers img{
+             display:flex;
+             position:relative;
+             top:0px;
+             left:140px;
+             width:150px;
+             height:150px;
+             padding:220px;
+            
+            }
+            section#teachers figcaption#um_title{
+              display:flex;
+              position:absolute;
+              top:180px;
+              left:380px;
+             
+             }
+  
+             section#teachers figcaption#dois_title{
+              display:flex;
+              position:absolute;
+              top:180px;
+              left:990px;
+             
+             }
+             
+             
+       
+            
+      
+          
+          
+          /*#############################################################################################################*/
+          
+        
+    
+  }
+/*1369px*/
+@media screen and (max-width: 1439px) and (min-width:1079px){
+
+  body{
+
+    overflow-x: hidden;
+    height:4000px;
+    background-attachment: fixed, scroll;
+    background-image:url("img/body.png");
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:center;
+  
+    
+    }
+
+
+     /* SECTION footer*/
+      
+     section#footer {
+      display:flex;
+      position:relative;
+      flex-direction:column;
+      top:300px;
+      left:-10px;
+      width:1400px;
+      height:1300px;
+      background-image:url("img/footer.jpg");
+      background-size:cover;
+      background-repeat:no-repeat;
+      background-position:center;
+     
+      }      
+      
+      section#footer h2#ask{
+        display:flex;
+        position:absolute;
+        color:#FFFAFA;
+        top:150px;
+        width:550px;
+        left:495px;
+        font-size:34pt;
+        font-family: 'Josefin Sans', sans-serif;
+      }
+
+
+      section#footer  div{
+
+        display:flex;
+        position:relative;
+        background-color: azure;
+        color:#320e0e;
+        top:250px;
+        width:750px;
+        left:300px;
+        font-size:14pt;
+        font-family: 'Josefin Sans', sans-serif;
+        padding:0px;
+        border-radius: 20px;
+        margin:20px;
+      
+      }
+      section#footer  h3{
+
+        margin-left:40px; 
+
+      }
+
+      section#footer  div:hover{
+
+        opacity:0.7;
+
+      }
+
+      section#footer h1#comercial{
+        display:flex;
+        position:absolute;
+        color:#5c1b1b;
+        top:1190px;
+        left:475px;
+        font-size:21pt;
+        font-family: 'Josefin Sans', sans-serif;
+      }
+
+     /* SECTION garanty */
+      
+     section#garanty {
+      display:flex;
+      position:relative;
+      flex-direction:row;
+      top:200px;
+      left:-10px;
+      width:1400px;
+      height:1300px;
+      background-image:url("img/faixa_2.png");
+      background-size:cover;
+      background-repeat:no-repeat;
+      background-position:center;
+     
+      }      
+      
+
+        section#garanty img#selo{
+          display:flex;
+          position:relative;
+          top:300px;
+          left:50px;
+          width:380px;
+          height:300px;
+          padding:220px;
+         
+         }
+
+
+        section#garanty img#selo_2{
+          display:flex;
+          position:relative;
+          top:310px;
+          left:-300px;
+          width:380px;
+          height:300px;
+          padding:220px;
+         
+         }
+     
+     
+         
+  
+      /*#############################################################################################################*/
+
+
+
+
+      /* SECTION guitars */
+      
+      section#guitars {
+        display:flex;
+        position:relative;
+        flex-direction:row;
+        top:-10px;
+        left:-80px;
+        width:1600px;
+        height:1300px;
+        background-image:url("img/faixa.png");
+        background-size:cover;
+        background-repeat:no-repeat;
+        background-position:center;
+       
+        }      
+        
+         section#guitars h2#t_0{
+          display:flex;
+          position:absolute;
+          color:#9da8c3;
+          -webkit-text-stroke-width: 0.5px;
+          -webkit-text-stroke-color: black;
+          top:250px;
+          width:350px;
+          left:675px;
+          font-size:54pt;
+          font-family: 'Josefin Sans', sans-serif;
+          opacity:0.8;
+          }
+  
+  
+        section#guitars h2#t_1{
+        display:flex;
+        position:absolute;
+        color:#696969;
+        top:700px;
+        width:450px;
+        left:565px;
+        font-size:14pt;
+        word-wrap: break-word;
+        line-height: 1.5; 
+        font-family: 'Josefin Sans', sans-serif;
+        opacity:0.8;
+        padding-left:40px;
+        }
+
+        section#guitars h2#t_2{
+          display:flex;
+          position:absolute;
+          color:#696969;
+          top:1250px;
+          width:350px;
+          left:625px;
+          font-size:14pt;
+          word-wrap: break-word;
+          line-height: 1.5; 
+          font-family: 'Josefin Sans', sans-serif;
+          border: 1px gray;
+          opacity:0.8;
+          padding-left:40px;
+          }
+  
+          section#guitars img#ibanez{
+           display:flex;
+           position:relative;
+           top:800px;
+           left:-710px;
+           width:562px;
+           height:180px;
+           padding:220px;
+          
+          }
+
+          section#guitars img#strato{
+            display:flex;
+            position:relative;
+            top:300px;
+            left:280px;
+            width:562px;
+            height:180px;
+            padding:220px;
+           
+           }
+       
+           
+    
+        /*#############################################################################################################*/
+
+      /* SECTION styles */
+      
+      section#styles {
+        display:flex;
+        position:relative;
+        flex-direction:row;
+        top:-10px;
+        left:-10px;
+        width:1600px;
+        height:1300px;
+        background-color: #ffffff;
+        background-image:url("img/rock.jpg");
+        background-size:cover;
+        background-repeat:no-repeat;
+        background-position:left;
+       
+        }
+  
+        section#styles h2#t_1{
+        display:flex;
+        position:absolute;
+        color:rgb(149, 135, 124);
+        top:400px;
+        width:350px;
+        left:235px;
+        font-size:14pt;
+        word-wrap: break-word;
+        line-height: 1.5; 
+        font-family: 'Josefin Sans', sans-serif;
+        opacity:0.8;
+        padding-left:40px;
+        }
+
+        section#styles h2#t_2{
+          display:flex;
+          position:absolute;
+          color:rgb(149, 135, 124);
+          top:400px;
+          width:350px;
+          left:725px;
+          font-size:14pt;
+          word-wrap: break-word;
+          line-height: 1.5; 
+          font-family: 'Josefin Sans', sans-serif;
+          opacity:0.8;
+          padding-left:40px;
+          }
+          section#styles h2#t_3{
+            display:flex;
+            position:absolute;
+            color: rgb(149, 135, 124);
+            top:900px;
+            width:350px;
+            left:235px;
+            font-size:14pt;
+            word-wrap: break-word;
+            line-height: 1.5; 
+            font-family: 'Josefin Sans', sans-serif;
+            opacity:0.8;
+            padding-left:40px;
+            }
+    
+            section#styles h2#t_4{
+              display:flex;
+              position:absolute;
+              color:rgb(149, 135, 124);
+              top:900px;
+              width:350px;
+              left:725px;
+              font-size:14pt;
+              word-wrap: break-word;
+              line-height: 1.5; 
+              font-family: 'Josefin Sans', sans-serif;
+              opacity:0.8;
+              padding-left:40px;
+              }
+
+
+                       
+          section#styles h1#type_1{
+            display:flex;
+            position:absolute;
+            color:#fd0000;
+            top:290px;
+            left:320px;
+            font-size:34pt;
+            font-family: 'Josefin Sans', sans-serif;
+
+          }
+                   
+          section#styles h1#type_2{
+            display:flex;
+            position:absolute;
+            color:#fd0000;
+            top:290px;
+            left:780px;
+            font-size:34pt;
+            font-family: 'Josefin Sans', sans-serif;
+
+          }
+                   
+          section#styles h1#type_3{
+            display:flex;
+            position:absolute;
+            color:#fd0000;
+            top:790px;
+            left:320px;
+            font-size:34pt;
+            font-family: 'Josefin Sans', sans-serif;
+
+          }
+            
+                   
+          section#styles h1#type_4{
+            display:flex;
+            position:absolute;
+            color:#fd0000;
+            top:790px;
+            left:780px;
+            font-size:34pt;
+            font-family: 'Josefin Sans', sans-serif;
+
+          }
+
+          section#styles h1#title{
+            display:flex;
+            position:absolute;
+            color:rgb(149, 135, 124);;
+            -webkit-text-stroke-width: 0.5px;
+            -webkit-text-stroke-color: black;
+            top:30px;
+            left:590px;
+            font-size:44pt;
+            font-family: 'Josefin Sans', sans-serif;
+
+          }
+     
+
+
+
+      /* SECTION LAST */
+      
+      section#last {
+        display:flex;
+        position:relative;
+        top:-10px;
+        left:-10px;
+        width:1500px;
+        height:1500px;
+        background-image:url("img/guitar.jpg");
+        background-size:cover;
+        background-repeat:no-repeat;
+        background-position:left;
+        }
+  
+        section#last h2{
+        display:flex;
+        position:absolute;
+        color:#BEBEBE;
+        top:250px;
+        width:550px;
+        left:125px;
+        font-size:19pt;
+        word-wrap: break-word;
+        line-height: 1.5; 
+        font-family: 'Josefin Sans', sans-serif;
+        border: 1px gray;
+        opacity:0.8;
+        padding:40px;
+        }
+        section#last div#inputs{
+          display:flex;
+          position:absolute;
+          flex-direction:column;
+          background-color:#BEBEBE;
+          top:200px;
+          width:300px;
+          height:400px;
+          left:955px;
+          opacity:0.8;
+          padding:30px;
+          }
+  
+          section#last div#inputs label{
+            display:flex;
+            position:relative;
+            font-size:18pt;
+            word-wrap: break-word;
+            font-family: 'Josefin Sans', sans-serif;
+            margin-top:30px;
+            margin-left:20px;
+          
+          
+          }
+          section#last div#inputs input{
+            display:flex;
+            position:relative;
+            font-family: 'Josefin Sans', sans-serif;
+            border-radius:10px;
+            border:none;
+            font-size:14pt;
+            width:250px;
+            height:30px;
+            margin-top:20px;
+            margin-left:20px;
+          
+          }
+  
+          section#last button#inscrever{
+           
+            display:flex;
+            position:relative;
+            font-size:18pt;
+            left:65px;
+            background-color:red;
+            cursor:pointer;
+            border:none;
+            border-radius:10px;
+            top:20px;
+            word-wrap: break-word;
+            font-family: 'Josefin Sans', sans-serif;
+            width:150px;
+            height:50px;
+            padding-top:13px;
+            padding-left:11px;
+      
+          }
+          
+          section#last button#inscrever:hover{
+           
+            background-color:#BEBEBE;
+            border:black solid 1px;
+  
+          }
+  
+
+          section#last img#ux{
+            display:flex;
+            position:absolute;
+            top:100px;
+            left:200px;
+            width:400px;
+            height:150px;
+           
+           }
+           
+         
+          
+        
+        
+        /*#############################################################################################################*/
+  
+      /* SECTION teachers */
+      
+      section#teachers {
+        display:flex;
+        position:relative;
+        flex-direction:row;
+        top:-10px;
+        left:-50px;
+        width:1500px;
+        height:1500px;
+        background-color: #ffffff;
+       
+        }
+  
+        section#teachers h2#t_1{
+        display:flex;
+        position:absolute;
+        color:#9da8c3;
+        top:400px;
+        width:350px;
+        left:235px;
+        font-size:14pt;
+        word-wrap: break-word;
+        line-height: 1.5; 
+        font-family: 'Josefin Sans', sans-serif;
+        border: 1px gray;
+        opacity:0.8;
+        padding-left:40px;
+        }
+
+        section#teachers h2#t_2{
+          display:flex;
+          position:absolute;
+          color:#9da8c3;
+          top:400px;
+          width:350px;
+          left:825px;
+          font-size:14pt;
+          word-wrap: break-word;
+          line-height: 1.5; 
+          font-family: 'Josefin Sans', sans-serif;
+          border: 1px gray;
+          opacity:0.8;
+          padding-left:40px;
+          }
+  
+          section#teachers img{
+           display:flex;
+           position:relative;
+           top:0px;
+           left:140px;
+           width:150px;
+           height:150px;
+           padding:220px;
+          
+          }
+          section#teachers figcaption#um_title{
+            display:flex;
+            position:absolute;
+            top:180px;
+            left:380px;
+           
+           }
+
+           section#teachers figcaption#dois_title{
+            display:flex;
+            position:absolute;
+            top:180px;
+            left:990px;
+           
+           }
+           
+           
+     
+          
+    
+        
+        
+        /*#############################################################################################################*/
+        
+
+
+}
+/*Mobile*/
+@media screen and (max-width: 1078px) and (min-width:977px){
+
+  body{
+
+    overflow-x: hidden;
+    height:auto;
+    background-attachment: fixed, scroll;
+    background-image:url("img/body.png");
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:center;
+    
+    }
+
+
+
+
+     /* SECTION footer*/
+      
+     section#footer {
+      display:flex;
+      position:relative;
+      flex-direction:column;
+      top:2600px;
+      left:-10px;
+      width:1220px;
+      height:3000px;
+      background-image:url("img/footer.jpg");
+      background-size:cover;
+      background-repeat:no-repeat;
+      background-position:center;
+     
+      }      
+      
+      section#footer h2#ask{
+        display:flex;
+        position:absolute;
+        color:#FFFAFA;
+        top:280px;
+        width:950px;
+        left:245px;
+        font-size:64pt;
+        font-family: 'Josefin Sans', sans-serif;
+      }
+
+
+      section#footer  div{
+
+        display:flex;
+        position:relative;
+        background-color: azure;
+        color:#320e0e;
+        top:480px;
+        width:1050px;
+        left:45px;
+        font-size:24pt;
+        font-family: 'Josefin Sans', sans-serif;
+        padding:10px;
+        border-radius: 20px;
+        margin:40px;
+      
+      }
+      section#footer  h3{
+
+        margin-left:40px; 
+
+      }
+
+      section#footer  div:hover{
+
+        opacity:0.7;
+
+      }
+
+      section#footer h1#comercial{
+        display:flex;
+        position:absolute;
+        color:#5c1b1b;
+        top:2020px;
+        left:225px;
+        font-size:38pt;
+        font-family: 'Josefin Sans', sans-serif;
+      }
+
+
+     /* SECTION garanty */
+      
+     section#garanty {
+      display:flex;
+      position:relative;
+      flex-direction:row;
+      top:900px;
+      left:-10px;
+      width:1220px;
+      height:1000px;
+      background-image:url("img/faixa_2.png");
+      background-size:cover;
+      background-repeat:no-repeat;
+      background-position:center;
+     
+      }      
+      
+
+        section#garanty img#selo{
+          display:flex;
+          position:relative;
+          top:300px;
+          left:70px;
+          width:700px;
+          height:540px;
+          padding:220px;
+         
+         }
+
+
+        section#garanty img#selo_2{
+          display:flex;
+          position:relative;
+          top:1310px;
+          left:-1090px;
+          width:760px;
+          height:600px;
+          padding:220px;
+         
+         }
+     
+     
+         
+  
+      /*#############################################################################################################*/
+
+
+      /* SECTION guitars */
+      
+      section#guitars {
+        display:flex;
+        position:relative;
+        flex-direction:row;
+        top:-11px;
+        left:-10px;
+        width:1220px;
+        height:1300px;
+        background-image:url("img/faixa.png");
+        background-size:cover;
+        background-repeat:no-repeat;
+        background-position:center;
+       
+        }      
+        
+         section#guitars h2#t_0{
+          display:flex;
+          position:absolute;
+          color:#9da8c3;
+          -webkit-text-stroke-width: 0.5px;
+          -webkit-text-stroke-color: black;
+          top:250px;
+          width:350px;
+          left:475px;
+          font-size:74pt;
+          font-family: 'Josefin Sans', sans-serif;
+          opacity:0.8;
+          }
+  
+  
+        section#guitars h2#t_1{
+        display:flex;
+        position:absolute;
+        color:#696969;
+        top:950px;
+        width:750px;
+        left:275px;
+        font-size:24pt;
+        word-wrap: break-word;
+        line-height: 1.5; 
+        font-family: 'Josefin Sans', sans-serif;
+        opacity:0.8;
+        padding-left:40px;
+        }
+
+        section#guitars h2#t_2{
+          display:flex;
+          position:absolute;
+          color:#696969;
+          top:1750px;
+          width:400px;
+          left:425px;
+          font-size:24pt;
+          word-wrap: break-word;
+          line-height: 1.5; 
+          font-family: 'Josefin Sans', sans-serif;
+          opacity:0.8;
+          padding-left:40px;
+          }
+  
+          section#guitars img#ibanez{
+           display:flex;
+           position:relative;
+           top:1300px;
+           left:-850px;
+           width:562px;
+           height:180px;
+           padding:220px;
+          
+          }
+
+          section#guitars img#strato{
+            display:flex;
+            position:relative;
+            top:500px;
+            left:150px;
+            width:562px;
+            height:180px;
+            padding:220px;
+           
+           }
+       
+           
+    
+      /*#############################################################################################################*/
+
+      /* SECTION styles */
+      
+      section#styles {
+        display:flex;
+        position:relative;
+        flex-direction:row;
+        top:-10px;
+        left:-10px;
+        width:1220px;
+        height:2900px;
+        background-color: #ffffff;
+        background-image:url("img/rock.jpg");
+        background-size:cover;
+        background-repeat:no-repeat;
+        background-position:center;
+       
+        }
+  
+        section#styles h2#t_1{
+        display:flex;
+        position:absolute;
+        color:rgb(149, 135, 124);
+        top:400px;
+        width:550px;
+        left:335px;
+        font-size:24pt;
+        word-wrap: break-word;
+        line-height: 1.5; 
+        font-family: 'Josefin Sans', sans-serif;
+        opacity:0.8;
+        padding-left:40px;
+        }
+
+        section#styles h2#t_2{
+          display:flex;
+          position:absolute;
+          color:rgb(149, 135, 124);
+          top:1030px;
+          width:550px;
+          left:335px;
+          font-size:24pt;
+          word-wrap: break-word;
+          line-height: 1.5; 
+          font-family: 'Josefin Sans', sans-serif;
+          opacity:0.8;
+          padding-left:40px;
+          }
+          section#styles h2#t_3{
+            display:flex;
+            position:absolute;
+            color: rgb(149, 135, 124);
+            top:1600px;
+            width:550px;
+            left:335px;
+            font-size:24pt;
+            word-wrap: break-word;
+            line-height: 1.5; 
+            font-family: 'Josefin Sans', sans-serif;
+            opacity:0.8;
+            padding-left:40px;
+            }
+    
+            section#styles h2#t_4{
+              display:flex;
+              position:absolute;
+              color:rgb(149, 135, 124);
+              top:2200px;
+              width:550px;
+              left:335px;
+              font-size:24pt;
+              word-wrap: break-word;
+              line-height: 1.5; 
+              font-family: 'Josefin Sans', sans-serif;
+              opacity:0.8;
+              padding-left:40px;
+              }
+
+
+                       
+          section#styles h1#type_1{
+            display:flex;
+            position:absolute;
+            color:#fd0000;
+            top:290px;
+            left:460px;
+            font-size:44pt;
+            font-family: 'Josefin Sans', sans-serif;
+
+          }
+                   
+          section#styles h1#type_2{
+            display:flex;
+            position:absolute;
+            color:#fd0000;
+            top:890px;
+            left:430px;
+            font-size:44pt;
+            font-family: 'Josefin Sans', sans-serif;
+
+          }
+                   
+          section#styles h1#type_3{
+            display:flex;
+            position:absolute;
+            color:#fd0000;
+            top:1460px;
+            left:460px;
+            font-size:44pt;
+            font-family: 'Josefin Sans', sans-serif;
+
+          }
+            
+                   
+          section#styles h1#type_4{
+            display:flex;
+            position:absolute;
+            color:#fd0000;
+            top:2060px;
+            left:460px;
+            font-size:44pt;
+            font-family: 'Josefin Sans', sans-serif;
+
+          }
+
+          section#styles h1#title{
+            display:flex;
+            position:absolute;
+            color:rgb(149, 135, 124);;
+            -webkit-text-stroke-width: 0.5px;
+            -webkit-text-stroke-color: black;
+            top:30px;
+            left:470px;
+            font-size:74pt;
+            font-family: 'Josefin Sans', sans-serif;
+
+          }
+     
+
+      /* SECTION teachers */
+      
+      section#teachers {
+        display:flex;
+        position:relative;
+        flex-direction:column;
+        top:-10px;
+        left:-10px;
+        width:1220px;
+        height:2400px;
+        background-color: #ffffff;
+       
+        }
+  
+        section#teachers h2#t_1{
+        display:flex;
+        position:absolute;
+        color:#9da8c3;
+        top:390px;
+        width:450px;
+        left:360px;
+        font-size:25pt;
+        word-wrap: break-word;
+        line-height: 1.5; 
+        font-family: 'Josefin Sans', sans-serif;
+        border: 1px gray;
+        opacity:0.8;
+        padding-left:40px;
+        }
+
+        section#teachers h2#t_2{
+          display:flex;
+          position:absolute;
+          color:#9da8c3;
+          top:1400px;
+          width:450px;
+          left:360px;
+          font-size:25pt;
+          word-wrap: break-word;
+          line-height: 1.5; 
+          font-family: 'Josefin Sans', sans-serif;
+          border: 1px gray;
+          opacity:0.8;
+          padding-left:40px;
+          }
+  
+          section#teachers img{
+           display:flex;
+           position:relative;
+           top:-220px;
+           left:110px;
+           width:250px;
+           height:250px;
+           padding:370px;
+          
+          }
+          section#teachers figcaption#um_title{
+            display:flex;
+            position:absolute;
+            font-size:20pt;
+            top:80px;
+            left:495px;
+           
+           }
+
+           section#teachers figcaption#dois_title{
+            display:flex;
+            position:absolute;
+            font-size:24pt;
+            top:1050px;
+            left:540px;
+           
+           }
+           
+        
+        
+        /*#############################################################################################################*/
+        
+    
+      /* SECTION LAST */
+      
+      
+      section#last {
+        display:flex;
+        position:relative;
+        top:-10px;
+        left:-10px;
+        width:1220px;
+        height:1800px;
+        background-image:url("img/guitar.jpg");
+        background-size:cover;
+        background-repeat:no-repeat;
+        background-position:center;
+        }
+  
+        section#last h2{
+        display:flex;
+        position:absolute;
+        color:#BEBEBE;
+        top:300px;
+        width:550px;
+        left:300px;
+        font-size:26pt;
+        word-wrap: break-word;
+        line-height: 1.5; 
+        font-family: 'Josefin Sans', sans-serif;
+        border: 1px gray;
+        opacity:0.8;
+        padding:40px;
+        }
+        section#last div#inputs{
+          display:flex;
+          position:absolute;
+          flex-direction:column;
+          background-color:#BEBEBE;
+          top:1050px;
+          width:500px;
+          height:600px;
+          left:300px;
+          opacity:0.8;
+          padding:30px;
+          }
+  
+          section#last div#inputs label{
+            display:flex;
+            position:relative;
+            left:50px;
+            font-size:24pt;
+            word-wrap: break-word;
+            font-family: 'Josefin Sans', sans-serif;
+            margin-top:30px;
+            margin-left:20px;
+          
+          
+          }
+          section#last div#inputs input{
+            display:flex;
+            position:relative;
+            font-family: 'Josefin Sans', sans-serif;
+            border-radius:10px;
+            border:none;
+            left:50px;
+            font-size:14pt;
+            width:350px;
+            height:50px;
+            margin-top:20px;
+            margin-left:20px;
+          
+          }
+  
+          section#last button#inscrever{
+           
+            display:flex;
+            position:relative;
+            font-size:27pt;
+            left:110px;
+            background-color:red;
+            cursor:pointer;
+            border:none;
+            border-radius:10px;
+            top:55px;
+            word-wrap: break-word;
+            font-family: 'Josefin Sans', sans-serif;
+            width:250px;
+            height:100px;
+            padding-top:30px;
+            padding-left:28px;
+      
+          }
+          
+          section#last button#inscrever:hover{
+           
+            background-color:#BEBEBE;
+            border:black solid 1px;
+  
+          }
+
+          section#last img#ux{
+           display:flex;
+           position:absolute;
+           top:20px;
+           left:220px;
+           width:800px;
+           height:300px;
+          
+          }
+          
+        
+        
+        /*#############################################################################################################*/
+
+    
+  }
+/*telas muito pequenas*/
+@media screen and (max-width: 976px)  and (min-width:0px){
+  
+      
+  body{
+  
+    height:8000px;
+    background-attachment: fixed, scroll;
+    background-image:url("img/body.png");
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:center;
+  
+  }
+
+
+
+     /* SECTION footer*/
+      
+     section#footer {
+      display:flex;
+      position:relative;
+      flex-direction:column;
+      top:800px;
+      left:-10px;
+      width:1600px;
+      height:1480px;
+      background-image:url("img/footer.jpg");
+      background-size:cover;
+      background-repeat:no-repeat;
+      background-position:center;
+     
+      }      
+      
+      section#footer h2#ask{
+        display:flex;
+        position:absolute;
+        color:#FFFAFA;
+        top:150px;
+        width:550px;
+        left:575px;
+        font-size:34pt;
+        font-family: 'Josefin Sans', sans-serif;
+      }
+
+
+      section#footer  div{
+
+        display:flex;
+        position:relative;
+        background-color: azure;
+        color:#320e0e;
+        top:250px;
+        width:750px;
+        left:375px;
+        font-size:14pt;
+        font-family: 'Josefin Sans', sans-serif;
+        padding:0px;
+        border-radius: 20px;
+        margin:20px;
+      
+      }
+      section#footer  h3{
+
+        margin-left:40px; 
+
+      }
+
+      section#footer  div:hover{
+
+        opacity:0.7;
+
+      }
+
+      section#footer h1#comercial{
+        display:flex;
+        position:absolute;
+        color:#5c1b1b;
+        top:1350px;
+        left:545px;
+        font-size:21pt;
+        font-family: 'Josefin Sans', sans-serif;
+      }
+
+
+
+     /* SECTION garanty */
+      
+     section#garanty {
+      display:flex;
+      position:relative;
+      flex-direction:row;
+      top:400px;
+      left:-10px;
+      width:1600px;
+      height:1000px;
+      background-image:url("img/faixa_2.png");
+      background-size:cover;
+      background-repeat:no-repeat;
+      background-position:center;
+     
+      }      
+      
+
+        section#garanty img#selo{
+          display:flex;
+          position:relative;
+          top:300px;
+          left:110px;
+          width:380px;
+          height:300px;
+          padding:220px;
+         
+         }
+
+
+        section#garanty img#selo_2{
+          display:flex;
+          position:relative;
+          top:310px;
+          left:-200px;
+          width:380px;
+          height:300px;
+          padding:220px;
+         
+         }
+     
+     
+         
+  
+      /*#############################################################################################################*/
+
+
+      /* SECTION guitars */
+      
+      section#guitars {
+        display:flex;
+        position:relative;
+        flex-direction:row;
+        top:-10px;
+        left:-10px;
+        width:1600px;
+        height:1300px;
+        background-image:url("img/faixa.png");
+        background-size:cover;
+        background-repeat:no-repeat;
+        background-position:center;
+       
+        }      
+        
+         section#guitars h2#t_0{
+          display:flex;
+          position:absolute;
+          color:#9da8c3;
+          -webkit-text-stroke-width: 0.5px;
+          -webkit-text-stroke-color: black;
+          top:250px;
+          width:350px;
+          left:675px;
+          font-size:54pt;
+          font-family: 'Josefin Sans', sans-serif;
+          opacity:0.8;
+          }
+  
+  
+        section#guitars h2#t_1{
+        display:flex;
+        position:absolute;
+        color:#696969;
+        top:700px;
+        width:450px;
+        left:565px;
+        font-size:14pt;
+        word-wrap: break-word;
+        line-height: 1.5; 
+        font-family: 'Josefin Sans', sans-serif;
+        opacity:0.8;
+        padding-left:40px;
+        }
+
+        section#guitars h2#t_2{
+          display:flex;
+          position:absolute;
+          color:#696969;
+          top:1250px;
+          width:350px;
+          left:625px;
+          font-size:14pt;
+          word-wrap: break-word;
+          line-height: 1.5; 
+          font-family: 'Josefin Sans', sans-serif;
+          border: 1px gray;
+          opacity:0.8;
+          padding-left:40px;
+          }
+  
+          section#guitars img#ibanez{
+           display:flex;
+           position:relative;
+           top:800px;
+           left:-710px;
+           width:562px;
+           height:180px;
+           padding:220px;
+          
+          }
+
+          section#guitars img#strato{
+            display:flex;
+            position:relative;
+            top:300px;
+            left:280px;
+            width:562px;
+            height:180px;
+            padding:220px;
+           
+           }
+       
+           
+    
+        /*#############################################################################################################*/
+
+      /* SECTION styles */
+      
+      section#styles {
+        display:flex;
+        position:relative;
+        flex-direction:row;
+        top:-10px;
+        left:-10px;
+        width:1600px;
+        height:1600px;
+        background-color: #ffffff;
+        background-image:url("img/rock.jpg");
+        background-size:cover;
+        background-repeat:no-repeat;
+        background-position:center;
+       
+        }
+  
+        section#styles h2#t_1{
+        display:flex;
+        position:absolute;
+        color:rgb(149, 135, 124);
+        top:400px;
+        width:350px;
+        left:335px;
+        font-size:14pt;
+        word-wrap: break-word;
+        line-height: 1.5; 
+        font-family: 'Josefin Sans', sans-serif;
+        opacity:0.8;
+        padding-left:40px;
+        }
+
+        section#styles h2#t_2{
+          display:flex;
+          position:absolute;
+          color:rgb(149, 135, 124);
+          top:400px;
+          width:350px;
+          left:825px;
+          font-size:14pt;
+          word-wrap: break-word;
+          line-height: 1.5; 
+          font-family: 'Josefin Sans', sans-serif;
+          opacity:0.8;
+          padding-left:40px;
+          }
+          section#styles h2#t_3{
+            display:flex;
+            position:absolute;
+            color: rgb(149, 135, 124);
+            top:900px;
+            width:350px;
+            left:335px;
+            font-size:14pt;
+            word-wrap: break-word;
+            line-height: 1.5; 
+            font-family: 'Josefin Sans', sans-serif;
+            opacity:0.8;
+            padding-left:40px;
+            }
+    
+            section#styles h2#t_4{
+              display:flex;
+              position:absolute;
+              color:rgb(149, 135, 124);
+              top:900px;
+              width:350px;
+              left:825px;
+              font-size:14pt;
+              word-wrap: break-word;
+              line-height: 1.5; 
+              font-family: 'Josefin Sans', sans-serif;
+              opacity:0.8;
+              padding-left:40px;
+              }
+
+
+                       
+          section#styles h1#type_1{
+            display:flex;
+            position:absolute;
+            color:#fd0000;
+            top:290px;
+            left:420px;
+            font-size:34pt;
+            font-family: 'Josefin Sans', sans-serif;
+
+          }
+                   
+          section#styles h1#type_2{
+            display:flex;
+            position:absolute;
+            color:#fd0000;
+            top:290px;
+            left:890px;
+            font-size:34pt;
+            font-family: 'Josefin Sans', sans-serif;
+
+          }
+                   
+          section#styles h1#type_3{
+            display:flex;
+            position:absolute;
+            color:#fd0000;
+            top:790px;
+            left:420px;
+            font-size:34pt;
+            font-family: 'Josefin Sans', sans-serif;
+
+          }
+            
+                   
+          section#styles h1#type_4{
+            display:flex;
+            position:absolute;
+            color:#fd0000;
+            top:790px;
+            left:890px;
+            font-size:34pt;
+            font-family: 'Josefin Sans', sans-serif;
+
+          }
+
+          section#styles h1#title{
+            display:flex;
+            position:absolute;
+            color:rgb(149, 135, 124);;
+            -webkit-text-stroke-width: 0.5px;
+            -webkit-text-stroke-color: black;
+            top:30px;
+            left:690px;
+            font-size:44pt;
+            font-family: 'Josefin Sans', sans-serif;
+
+          }
+     
+        /*#############################################################################################################*/
+   
+      /* SECTION LAST */
+      
+      section#last {
+        display:flex;
+        position:relative;
+        top:-10px;
+        left:-10px;
+        width:1600px;
+        height:1300px;
+        background-image:url("img/guitar.jpg");
+        background-size:cover;
+        background-repeat:no-repeat;
+        background-position:left;
+        }
+  
+        section#last h2{
+        display:flex;
+        position:absolute;
+        color:#BEBEBE;
+        top:250px;
+        width:550px;
+        left:125px;
+        font-size:19pt;
+        word-wrap: break-word;
+        line-height: 1.5; 
+        font-family: 'Josefin Sans', sans-serif;
+        border: 1px gray;
+        opacity:0.8;
+        padding:40px;
+        }
+        section#last div#inputs{
+          display:flex;
+          position:absolute;
+          flex-direction:column;
+          background-color:#BEBEBE;
+          top:200px;
+          width:300px;
+          height:400px;
+          left:955px;
+          opacity:0.8;
+          padding:30px;
+          }
+  
+          section#last div#inputs label{
+            display:flex;
+            position:relative;
+            font-size:18pt;
+            word-wrap: break-word;
+            font-family: 'Josefin Sans', sans-serif;
+            margin-top:30px;
+            margin-left:20px;
+          
+          
+          }
+          section#last div#inputs input{
+            display:flex;
+            position:relative;
+            font-family: 'Josefin Sans', sans-serif;
+            border-radius:10px;
+            border:none;
+            font-size:14pt;
+            width:250px;
+            height:30px;
+            margin-top:20px;
+            margin-left:20px;
+          
+          }
+  
+          section#last button#inscrever{
+           
+            display:flex;
+            position:relative;
+            font-size:18pt;
+            left:65px;
+            background-color:red;
+            cursor:pointer;
+            border:none;
+            border-radius:10px;
+            top:20px;
+            word-wrap: break-word;
+            font-family: 'Josefin Sans', sans-serif;
+            width:150px;
+            height:50px;
+            padding-top:13px;
+            padding-left:11px;
+      
+          }
+          
+          section#last button#inscrever:hover{
+           
+            background-color:#BEBEBE;
+            border:black solid 1px;
+  
+          }
+  
+  
+          section#last img#ux{
+            display:flex;
+            position:absolute;
+            top:100px;
+            left:200px;
+            width:400px;
+            height:150px;
+           
+           }
+        
+        /*#############################################################################################################*/
+        
+        /* SECTION teachers */
+        
+        section#teachers {
+          display:flex;
+          position:relative;
+          flex-direction:row;
+          top:-10px;
+          left:-10px;
+          width:1600px;
+          height:1300px;
+          background-color: #ffffff;
+         
+          }
+    
+          section#teachers h2#t_1{
+          display:flex;
+          position:absolute;
+          color:#9da8c3;
+          top:400px;
+          width:350px;
+          left:235px;
+          font-size:14pt;
+          word-wrap: break-word;
+          line-height: 1.5; 
+          font-family: 'Josefin Sans', sans-serif;
+          border: 1px gray;
+          opacity:0.8;
+          padding-left:40px;
+          }
+  
+          section#teachers h2#t_2{
+            display:flex;
+            position:absolute;
+            color:#9da8c3;
+            top:400px;
+            width:350px;
+            left:825px;
+            font-size:14pt;
+            word-wrap: break-word;
+            line-height: 1.5; 
+            font-family: 'Josefin Sans', sans-serif;
+            border: 1px gray;
+            opacity:0.8;
+            padding-left:40px;
+            }
+    
+            section#teachers img{
+             display:flex;
+             position:relative;
+             top:0px;
+             left:140px;
+             width:150px;
+             height:150px;
+             padding:220px;
+            
+            }
+            section#teachers figcaption#um_title{
+              display:flex;
+              position:absolute;
+              top:180px;
+              left:380px;
+             
+             }
+  
+             section#teachers figcaption#dois_title{
+              display:flex;
+              position:absolute;
+              top:180px;
+              left:990px;
+             
+             }
+             
+             
+       
+            
+      
+          
+          
+          /*#############################################################################################################*/
+            
+
+         
+       
+}
+
+
